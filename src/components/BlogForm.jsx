@@ -54,6 +54,11 @@ const BlogForm = ({setCounter}) => {
                 <td><input type="text" name="author_id" onChange={handelChange} value={formData.author_id || ""}  /></td>
             </tr>
 
+            <tr>
+                <td>Date: </td>
+                <td><input type="date" name="date" onChange={handelChange} value={formData.date || ""}  /></td>
+            </tr>
+
             
             <tr>
                 <td></td>
